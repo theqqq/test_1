@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "exo20semibold";
+    src: url(/fonts/Exo2.0-SemiBold.otf);
+}
+
+@font-face {
+    font-family: "PT_Sans_Italic";
+    src: url(/fonts/PT_Sans_Italic.ttf);
+}
+
+@font-face {
+    font-family: "PT_Sans_Italic";
+    src: url(/fonts/PT_Sans_Italic.ttf);
+}
+
+@font-face {
+    font-family: "PT_Sans_Italic";
+    src: url(/fonts/PT_Sans_Italic.ttf);
+}
+
+
+body {
+    background-image: url(/image/Background.png);
+}
+
+.footer {
+    height: 170px;
+    background-color: #ffffff;
+}
+
+.menubar {
+    height: 50px;
+    background-color: rgb(21, 148, 265);
+}
+
+.order_dream {
+    font-family: "exo20semibold";
+    font-size: 9pt;
+    color: rgb(24, 158, 169);
+    position: fixed;
+    margin-left: 180px ;
+    margin-top: -40px ;
+}
+
+.seach_inp {
+    margin-top: 70px;
+    margin-left: 50px;
+    width: 416px;
+    font-family: "PT_Sans_Italic";
+}
+
+.seach_inp>span { 
+    color: rgb(110, 163, 46);
+}
+
+.seach_inp>span:hover { 
+    color: #547d01;
+}
+
+.brand_icon_group {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.brand_icon {
+    color: rgb(110, 163, 46);
+}
+
+.brand_icon:hover {
+    color: #547d01;
+}
