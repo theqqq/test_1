@@ -9,18 +9,37 @@
 }
 
 @font-face {
-    font-family: "PT_Sans_Italic";
-    src: url(/fonts/PT_Sans_Italic.ttf);
+    font-family: "PT_Sans_Bold";
+    src: url(/fonts/PT_Sans_Bold.ttf);
 }
 
 @font-face {
-    font-family: "PT_Sans_Italic";
-    src: url(/fonts/PT_Sans_Italic.ttf);
+    font-family: "PT_Sans";
+    src: url(/fonts/PT_Sans.ttf);
 }
+
+@font-face {
+    font-family: "Exo20Medium";
+    src: url(/fonts/Exo2.0-Medium.otf);
+}
+
+@font-face {
+    font-family: "Exo2Bold";
+    src: url(/fonts/Exo2.0-Bold.otf);
+}
+
+
 
 
 body {
     background-image: url(/image/Background.png);
+}
+
+.copyright {
+    background-color: red;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
 }
 
 .footer {
@@ -29,15 +48,31 @@ body {
 }
 
 .menubar {
-    height: 50px;
-    background-color: rgb(21, 148, 265);
+    height: 51px;
+    background-color: rgb(21, 148, 255);
+    font-family: "Exo20Medium";
+    font-size: 14pt;
+}
+
+.menu_a {
+    color: white;
+    background-color: rgb(21, 148, 255);
+}
+
+.menu_a:hover {
+    background-color: rgb(11, 126, 141);
+}
+
+.logo {
+    margin-top: 20px;
 }
 
 .order_dream {
+    width: 204px;
     font-family: "exo20semibold";
     font-size: 9pt;
     color: rgb(24, 158, 169);
-    position: fixed;
+    position: static;
     margin-left: 180px ;
     margin-top: -40px ;
 }
@@ -68,4 +103,107 @@ body {
 
 .brand_icon:hover {
     color: #547d01;
+}
+
+.right_email>b {
+    color: rgb(21, 148, 165);
+}
+
+.right_email {
+    font-family: "PT_Sans_Bold";
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.centre {
+    height: 3325px;
+    background-color: white;
+}
+
+.spec_div {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.left_line {
+    float: right;
+    margin-top: 11px;
+    
+}
+
+.right_line {
+    
+}
+
+.spec {
+    font-family: "exo20semibold";
+    font-size: 14px;
+    color: rgb(60, 64, 64);
+    text-align: center;
+}
+
+.spec_image {
+    width: 350px;
+    height: 380px;
+    background-color: rgb(243, 244, 245);
+    padding-top: 15px;
+    padding-left: 18px;
+}
+
+.spec_image>ul {
+    list-style-type: none;
+    padding-left: 10px;
+    font-size: 12pt;
+}
+.spec_image>ul>li {
+    padding-top: 5px;
+    
+}
+
+.spec_image>ul>li>span { 
+    color: rgb(21, 148, 165);
+    width: 20px;
+}
+
+.spec_image>b { 
+    display: inherit;
+    font-family: "PT_Sans_Bold";
+    color: rgb(60, 64, 64);
+    font-size: 14pt;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.spec_image>ul>li>p { 
+    display: inline;
+    font-family: "PT_Sans";
+    color: rgb(60, 64, 64);
+
+}
+
+.money_a {
+    color: rgb(236, 100 ,40);
+}
+
+.btn_details {
+    display: block;
+    width: 295px;
+    height: 40px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(110, 162, 6);
+    border-radius: 3px;
+    padding-top: 3px;
+    font-family: "Exo2Bold";
+    font-size: 16pt;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    
+}
+
+.btn_details:hover {
+    text-decoration: none;
+    background-color: #547d01;
+    cursor: pointer;
 }
