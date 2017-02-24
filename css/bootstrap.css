@@ -2583,8 +2583,7 @@ output {
 .form-control::-ms-expand {
   background-color: transparent;
   border: 0;
-}
-.form-control[disabled],
+}.form-control[disabled],
 .form-control[readonly],
 fieldset[disabled] .form-control {
   background-color: #eee;
@@ -2916,6 +2915,7 @@ select[multiple].input-lg {
   .form-inline .form-group {
     display: inline-block;
     margin-bottom: 0;
+      margin-top: -5px;
     vertical-align: middle;
   }
   .form-inline .form-control {
